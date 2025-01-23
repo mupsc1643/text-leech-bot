@@ -89,7 +89,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["upload"]))
+@bot.on_message(filters.command(["hanuman"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 ⏍')
     input: Message = await bot.listen(editable.chat.id)
@@ -210,8 +210,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎥 ] Vid_ID:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv \n\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}** \n\n Downloaded By - {MR}'
-                cc1 = f'**[ 📁 ] Pdf_ID:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}.pdf  \n\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}** \n\n Downloaded By - {MR}'
+                cc = f'**[ 🎥 ] Filename:** {str(count).zfill(3)}.** {𝗻𝗮𝗺𝗲𝟭}.mkv \n\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}** \n\n Downloaded By - {MR}'
+                cc1 = f'**[ 📁 ] Filename:** {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}.pdf  \n\n✉️ 𝐁𝐚𝐭𝐜𝐡 » **{raw_text0}** \n\n Downloaded By - {MR}'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -254,7 +254,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("‼️⚜Lectures Uploaded⚜‼️ \n\n 🔔Drop Reaction If You Are Alive \n\n 🔥Bhar Do Reaction 🌧 \n\n 🥸 Support @Invisiblebots 🔱")
+    await m.reply_text("‼️⚜Lectures Uploaded⚜‼️ \n\n 🔔Drop Reaction If You Are Alive \n 🔥Bhar Do Reaction 🌧 \n\n 🥸 Support @Invisiblebots 🔱")
 
 print("""
 █░█░█ █▀█ █▀█ █▀▄ █▀▀ █▀█ ▄▀█ █▀▀ ▀█▀     ▄▀█ █▀ █░█ █░█ ▀█▀ █▀█ █▀ █░█   ░ █▀▀
