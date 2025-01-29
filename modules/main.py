@@ -71,25 +71,25 @@ async def main():
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(
-       f"𝐇𝐞𝐥𝐥𝐨 \n\n◆〓◆ ❖ Invisible Bots❖ ™ ◆〓◆\n\n❈ Welcome To Invisible TXT Leech ", reply_markup=InlineKeyboardMarkup(
+       f"𝐇𝐞𝐥𝐥𝐨 \n\n◆〓◆ ❖ .𓄂️𝆺𝅥⃝🕷️i̟ ‌⃪‌ ᷟ𓆩〭〬🕸️M̟i̟s̟s̟i̟o̟n̟ u̟p̟s̟c̟‌ 🖤 ❖ ™ ◆〓◆\n\n❈ Welcome To Mission Upsc Leech ", reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/+IPoJyfHSYEJiZGQ9") ],
+                    InlineKeyboardButton("✜ 𝐉𝐨𝐢𝐧 𝐔𝐩𝐃𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/Missionupscoffcial") ],
                     [
-                    InlineKeyboardButton("✜ Smurf ✜" ,url="https://t.me/Smurfnda") ],
+                    InlineKeyboardButton("✜ .𓄂️𝆺𝅥⃝🕷️i̟ ‌⃪‌ ᷟ𓆩〭〬🕸️M̟i̟s̟s̟i̟o̟n̟ u̟p̟s̟c̟‌ 🖤 ✜" ,url="https://t.me/Mission_upscc") ],
                     [
-                    InlineKeyboardButton(" Support " ,url="https://t.me/Invisiblebots") ]                               
+                    InlineKeyboardButton(" Support " ,url="https://t.me/Mission_upscc") ]                               
             ]))
 
 
-@bot.on_message(filters.command("ruko"))
+@bot.on_message(filters.command("thamba"))
 async def restart_handler(_, m):
-    await m.reply_text("♦ Ruk Gaya Malik ♦", True)
+    await m.reply_text("♦ ruk gaya ♦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["hanuman"]))
+@bot.on_message(filters.command(["Upload"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 ⏍')
     input: Message = await bot.listen(editable.chat.id)
@@ -254,7 +254,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("‼️⚜Lectures Uploaded⚜‼️ \n\n 🔔Drop Reaction If You Are Alive \n 🔥Bhar Do Reaction 🌧 \n\n 🥸 Support @Invisiblebots 🔱")
+    await m.reply_text("‼️⚜Lectures Uploaded⚜‼️ \n\n 🔔Drop Reaction If You Are Alive \n 🔥Bhar Do Reaction 🌧 \n\n 🥸 Support @Missionupscoffcial 🔱")
 
 print("""
 █░█░█ █▀█ █▀█ █▀▄ █▀▀ █▀█ ▄▀█ █▀▀ ▀█▀     ▄▀█ █▀ █░█ █░█ ▀█▀ █▀█ █▀ █░█   ░ █▀▀
